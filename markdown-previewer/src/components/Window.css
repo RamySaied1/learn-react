@@ -1,0 +1,48 @@
+.Window {
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.content{
+  font-size:15px;
+  background-color:#c0d8d8;
+  width:100%;
+  margin:0px;
+  text-align:left;
+  word-wrap:break-word;
+  color:black;
+  overflow-y:auto;
+  overflow-x:hidden;
+  border: none;
+  resize: none;
+  outline: none;
+}
+.content-html
+{
+  font-size:15px;
+  color:black;
+  background-color:#c0d8d8;
+  width:100%;
+  text-align:left;
+  word-wrap:break-word;
+
+}
+.content-html > pre
+{
+  background-color:white;
+}
+
+.content-html *
+{
+  width:inherit;
+}
+.content-html table,.content-html td,.content-html th
+{
+  border: 1px solid black;
+}
+.content-html h1 ,.content-html h2,.content-html h3
+{
+  border-bottom: 1px solid black;
+}
