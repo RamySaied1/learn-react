@@ -1,0 +1,32 @@
+.drum-pad {
+  color:Black;
+  font-weight: bold;
+  font-size:20px;
+  background-color: #808080;
+  border-radius:10px;
+  box-shadow: 1px 1px 1px  ;
+}
+.clip{
+
+}
+.drum-pad:active {
+  color:Black;
+  font-weight: bold;
+  font-size:20px;
+  border-radius:10px;
+  box-shadow: 1px 1px 1px  ;
+  background-color: orange;
+}
+.drum-padActive,.drum-padActive:focus {
+  color:Black;
+  font-weight: bold;
+  font-size:20px;
+  border-radius:10px;
+  box-shadow: 1px 1px 1px  ;
+  background-color: orange;
+  outline:none;
+}
+
+.drum-pad:focus {
+  outline:none;
+}

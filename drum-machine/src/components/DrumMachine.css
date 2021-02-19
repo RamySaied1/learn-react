@@ -1,0 +1,79 @@
+.LastAction{
+  background-color: #8d8d8d ;
+  width:10em;
+  height:1.5em;
+}
+@media only screen and (min-width: 0px) {
+  .DrumMachine {
+    text-align: center;
+    background-color:#b3b3b3;
+    width: 300px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    border:solid;
+    border-color:orange;
+    outline:none;
+  }
+  .DrumPads {
+    width: 80%;
+    height: 50%;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  .Options {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .DrumMachine {
+    text-align: center;
+    background-color:#b3b3b3;
+    width: 800px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    border:solid;
+    border-color:orange;
+
+  }
+  .DrumPads {
+    width: 60%;
+    height: 80%;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  .Options {
+    width: 35%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+}
+

@@ -1,0 +1,26 @@
+.Container{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  color:black;
+}
+.OptionSelector {
+  background-color: black;
+  display:flex;
+  flex-direction: row;
+  align-items:flex-start;
+  justify-content: flex-start;
+  padding:3%;
+}
+
+.OptionOne {
+  width:50%;
+  height:100%;
+  background-color: blue;
+  margin:0px;
+}
+.text{
+  color:black;
+  margin:0px;
+}
