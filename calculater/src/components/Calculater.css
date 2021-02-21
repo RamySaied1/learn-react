@@ -1,0 +1,14 @@
+
+.Calculater {
+  text-align: center;
+  background-color:#b3b3b3;
+  width: 350px;
+  height: 400px;
+  display: grid;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  border:solid;
+  border-color:black;
+
+}
+

@@ -1,0 +1,20 @@
+.Pad  {
+  color:white;
+  text-align: center;
+  font-weight: bold;
+  font-size:20px;
+  background-color: #3a3939;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+.Pad:focus,.Pad:active {
+  outline:none;
+}
+.Pad:hover {
+  color:black;
+  background-color: #3a3939;
+  border-color: white;
+  outline:none;
+
+}

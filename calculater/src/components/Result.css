@@ -1,0 +1,19 @@
+.Result{
+  text-align:right;
+  background-color: black;
+  padding:0px;
+  margin:0px;
+}
+
+.Result-past{
+  color:yellow;
+  padding:0px;
+  margin:0px;
+  font-size:17px;
+}
+
+.Result-current{
+  color:white;
+  padding:0px;
+  margin:0px;
+}
